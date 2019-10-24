@@ -13,9 +13,7 @@
    color: #26a69a;
  }
  
- .nav-bar{
-     height: 100px;
- }
+
  
  .parallax-container {
    min-height: 380px;
@@ -26,6 +24,11 @@
    .parallax-container .section {
      width: 100%;
    }
+
+.brand-logo{
+  height: 100px;
+  width: 79px;
+}
 
  
  @media only screen and (max-width : 992px) {
