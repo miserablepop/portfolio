@@ -1,13 +1,12 @@
+// To initialize Materialize functions
+
 $(document).ready(function(){
     
+    // Side navigation function
     $('.sidenav').sidenav();
-    $('.parallax').parallax();
-    $('.carousel').carousel();
 
-    $('.carousel.carousel-slider').carousel({
-        fullWidth: true,
-        indicators: true
-      });
+    //Parallax function
+    $('.parallax').parallax();
   });
 
 
