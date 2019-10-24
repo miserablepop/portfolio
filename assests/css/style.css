@@ -30,6 +30,10 @@
   width: 79px;
 }
 
+.welcome h2{
+  font-family: 'Roboto Mono', monospace;
+}
+
  
  @media only screen and (max-width : 992px) {
    .parallax-container .section {

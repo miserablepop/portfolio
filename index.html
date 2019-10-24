@@ -9,11 +9,14 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection">
 
-    <!--Import Google Icon Font-->
+    <!--Import Google Icon and Roboto Mono Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+
     <!-- Link to custom stylesheet -->
     <link rel="stylesheet" href="assests/css/style.css">
+
+
 
 </head>
 <body>
@@ -23,7 +26,9 @@
         <div class="nav-wrapper container nav-bar">
           <a id="logo-container" href="#" class="brand-logo">JCL</a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="#">Navbar Link</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
     
           <ul id="nav-mobile" class="sidenav">
@@ -40,15 +45,55 @@
         <div class="parallax"><img src="assests/images/background1.JPG" alt="Unsplashed background img 1"></div>
     </div>
 
+    <!-- Welcome section -->
+    <div class="container welcome">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 left">
+                    <h2><i class="mdi-content-send brown-text"></i>Hello,</h2>
+                    <h2>I'm JC,</h2>
+                    <h2>Front/Back End developer</h2>
+                    <h2>Seattle, Washington</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                     
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="assests/images/background2.JPG" alt="Unsplashed background img 3"></div>
+    </div>
+
+
     <!-- About Me section -->
-    <div class="container">
+    <div class="container" id="about-me">
         <div class="section">
             <div class="row">
                 <div class="col s12 m4">
                     <div class="icon-block">
                         <h2 class="center brown-text"><i class="material-icons">mood</i></h2>
-                        <h5 class="center">Personal</h5>
+                        <h5 class="center">Life</h5>
                         <p class="light">My name is Juan Carlos Lenz. Originally from Deer Park, Texas but lived in Phoenix, Arizona for seven years before moving to Seattle. Married for four years and have two children: Hugo (3 years) and Imogene (5 months). For fun I enjoy playing guitar, hiking, and various sports.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">laptop</i></h2>
+                        <h5 class="center">Career</h5>
+                        <p class="light"></p>
+                        </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">directions_bike</i></h2>
+                        <h5 class="center">Hobbies</h5>
+                        <p class="light">Currently working at DocuSign (Seattle) as a Technical Consultant.</p>
                     </div>
                 </div>
             </div>
@@ -84,7 +129,7 @@
                             <img src="assests/images/train_scheduler.png" alt="">
                         </div>
                         <div class="card-content">
-                          <span class="card-title activator">Train Scheduler</span>
+                          <span class="card-title activator">Train Scheduler<i class="material-icons right">more_vert</i></span>
                         </div>
                         <div class="card-action">
                             <a href="https://miserablepop.github.io/train_scheduler/" target="_blank">View Site</a>
@@ -105,7 +150,7 @@
                                 
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator">Star Wars RPG Game</span>
+                                <span class="card-title activator">Star Wars RPG Game<i class="material-icons right">more_vert</i></span>
                             </div>
                             <div class="card-action">
                                 <a href="https://miserablepop.github.io/unit-4-game/" target="_blank">View Site</a>
@@ -160,6 +205,7 @@
                     <h5 class="white-text">Contact</h5>
                     <i class="medium material-icons">contact_mail</i> 
                     <i class="medium material-icons">contact_phone</i>
+                    <i class="fa fa-github"></i></a>
                 </div>
             </div>
         </div>
