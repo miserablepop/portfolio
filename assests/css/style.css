@@ -9,6 +9,9 @@
    line-height: 2rem;
  }
  
+ a{
+   color: white;
+ }
  .sidenav-trigger {
    color: #26a69a;
  }
