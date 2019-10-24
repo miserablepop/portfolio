@@ -13,7 +13,6 @@
    color: #26a69a;
  }
  
-
  
  .parallax-container {
    min-height: 380px;
@@ -25,10 +24,6 @@
      width: 100%;
    }
 
-.brand-logo{
-  height: 100px;
-  width: 79px;
-}
 
 .welcome h2{
   font-family: 'Roboto Mono', monospace;
